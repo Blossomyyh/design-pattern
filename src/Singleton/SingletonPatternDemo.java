@@ -3,6 +3,8 @@ package Singleton;
 public class SingletonPatternDemo {
     public static void main(String[] args) {
 
+        //todo other way: https://www.geeksforgeeks.org/prevent-singleton-pattern-reflection-serialization-cloning/
+
 
         /**
          * 1. Request to produce a unique serial number.

@@ -1,6 +1,6 @@
 package Factory;
 
-public class Square implements Shape {
+public class Square extends Shape {
 
     @Override
     public void draw() {

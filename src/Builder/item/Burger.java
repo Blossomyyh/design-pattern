@@ -1,0 +1,16 @@
+package Builder.item;
+
+import Builder.item.Item;
+import Builder.pack.Packing;
+import Builder.pack.Wrapper;
+
+public abstract class Burger implements Item {
+
+    @Override
+    public Packing packing() {
+        return new Wrapper();
+    }
+
+    @Override
+    public abstract float price();
+}

@@ -1,6 +1,6 @@
 package Factory;
 
-public class Circle implements Shape {
+public class Circle extends Shape {
     @Override
     public void draw() {
         System.out.println("Inside Octangle::draw() method.");
